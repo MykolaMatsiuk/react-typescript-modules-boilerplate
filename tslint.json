@@ -1,0 +1,56 @@
+{
+    "rules": {
+        "class-name": false,
+        "indent": [
+            true,
+            "tabs"
+        ],
+        "no-debugger": false,
+        "no-duplicate-key": true,
+        "no-duplicate-variable": true,
+        "no-internal-module": true,
+        "no-unreachable": true,
+        "no-var-keyword": true,
+        "one-variable-per-declaration": true,
+        "no-console": [false, "log", "error"],
+        "one-line": [
+            true,
+            "check-finally",
+            "check-else",
+            "check-catch"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double",
+            "avoid-escape",
+            "avoid-template"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ]
+    }
+}
